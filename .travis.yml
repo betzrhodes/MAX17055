@@ -5,7 +5,6 @@ node_js:
 
 before_script:
   - npm i -g imp-central-impt@latest
-  - impt auth login --local --lk ${EI_LOGIN_KEY}
 
 script:
   - impt test run
